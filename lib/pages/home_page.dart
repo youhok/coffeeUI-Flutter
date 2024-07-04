@@ -106,8 +106,9 @@ class _HomePageState extends State<HomePage> {
             scrollDirection: Axis.horizontal,
             children: const [
               CoffeeTile(coffeImagePath: 'lib/images/cuppcino.jpg', coffeeName: 'cappucino',coffeePrice: '4.20',),
+               CoffeeTile(coffeImagePath: 'lib/images/milk.jpg', coffeeName: 'coffee milk',coffeePrice: '4.50',),
                CoffeeTile(coffeImagePath: 'lib/images/latte.jpg', coffeeName: 'latte',coffeePrice: '4.00',),
-                CoffeeTile(coffeImagePath: 'lib/images/milk.jpg', coffeeName: 'cappucino',coffeePrice: '4.50',)
+               
               ],
           )),
           const SizedBox(
